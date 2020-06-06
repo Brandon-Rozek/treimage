@@ -22,7 +22,9 @@ def create(image_path: str, shape: trebuchet.FlexibleTrebuchet = trebuchet.D,
     Parameters
     ==========
     image_path: str
-        The path of the image that we wish to emulate
+        The path of the image that we wish to emulate.
+    shape: trebuchet.FlexibleTrebuchet
+        The trebuchet shape to use. Options: A, B, C, D.
     color: Optional[Tuple[int, int, int]]
         A RGB tuple containing the color of the Trebuchet tile.
         If None, then we average the color of the surrounding area.
